@@ -270,7 +270,7 @@ input[type="checkbox"] {
     color: #FF5300;
     /* margin-top: 120px; */
     text-align: center;
-    padding-top:120px ;
+    padding-top: 120px;
 }
 
 .ff_poppins {
@@ -392,6 +392,11 @@ input[type="checkbox"] {
     margin-bottom: 20px;
 }
 
+.mg_top_bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .fs_16 {
     font-size: 16px;
 }
@@ -445,9 +450,11 @@ hr {
     font-weight: 600;
     text-align: center;
 }
-.pad_btm_120{
+
+.pad_btm_120 {
     padding-bottom: 120px;
 }
+
 .mg_side_25 {
     margin-left: 20px;
     margin-right: 20px;
@@ -502,6 +509,7 @@ hr {
 .scrollbar {
     overflow-x: auto;
     scroll-behavior: smooth;
+    overflow-y: visible;
 
 }
 
@@ -570,7 +578,7 @@ hr {
 }
 
 .justify_space_btw {
-   justify-content:space-between;
+    justify-content: space-between;
 }
 
 .border {
@@ -586,39 +594,47 @@ hr {
     margin-bottom: 25px;
     margin-top: 13px;
 }
-.mg_15_77{
+
+.mg_15_77 {
     margin-left: 15px;
     margin-right: 77px;
 }
-.client{
+
+.client {
     font-size: 20px;
     font-weight: 500;
     color: #FF5300;
 
 }
-.posts{
+
+.posts {
     font-size: 12.8px;
     font-weight: 300;
     color: #7B7B7B;
 }
-.row3{
+
+.row3 {
     display: flex;
     flex-wrap: wrap;
     padding-left: -12px;
     padding-right: -12px;
 }
-.left_mg_15{
+
+.left_mg_15 {
     margin-left: 15px;
 }
-.right_mg_15{
+
+.right_mg_15 {
     margin-right: 15px;
 }
+
 @media (max-width:768px) {
     .col-12-sm {
         width: 100%;
         padding: 15px;
     }
-    .di_flex{
+
+    .di_flex {
         flex-wrap: wrap;
     }
 }
@@ -633,14 +649,75 @@ hr {
 @media (min-width:992px) {
     .col-lg-4 {
         width: 33.33%;
-      padding: 15px;
+        padding: 15px;
     }
-    .row3{
+
+    .row3 {
         flex-wrap: nowrap;
     }
 
 }
+
 /* ---------------------our capabilities-------------------- */
-.dire_row{
-    flex-direction: row;
+.capabilities {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF5300;
+    margin-bottom: 15px;
+}
+
+.forward {
+    font-size: 39px;
+    font-weight: 600;
+    color: #373737;
+    margin-bottom: 18px;
+
+}
+.mg_btm_40{
+    margin-bottom: 40px;
+}
+
+.border {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.numbers {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF5300;
+    line-height: 37.5px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+@media (min-width:992px) {
+    .col_lg_3 {
+        width: 25%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.padd_box {
+    padding: 11px 15px;
+}
+
+.box_h {
+    min-height: 108px;
+}
+
+.course {
+    font-size: 13px;
+    font-weight: 300;
+    color: #373737;
+   margin-top: 5px;
+}
+.pad_top_btm_120{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.mg_top_20{
+    margin-top: 20px;
 }
